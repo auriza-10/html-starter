@@ -27,6 +27,7 @@ body {
     /* mobile. Tamaño mínimo recomendado */
     font-size: 14px;
     line-height: 1.4em;
+    background-color: #ffffff;
 }
 
 
@@ -38,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Laptop / Tablet */
 @media (min-width: 768px) {
     body {
-        background: #0fb3ff;
+        background: #3885fa;
         font-size: 16px;
     }
 
@@ -73,18 +74,21 @@ nav ul li {
 }
 
 a {
-    color: #000;
+    color: #ffffff;
     font-weight: 600;
     text-decoration: none;
     padding: 0.25em .5em;
     text-transform: uppercase;
     min-width: 42px;
+    background-color: #ffffff;
+    transition: all 300ms ease-in;
 }
 
 a.active,
 a:hover {
-    background-color: #000;
-    color: #FFF;
+    transition: all 100ms ease-in;
+    background-color: #0835ff;
+    color: #ffffff;
 }
 
 footer {
