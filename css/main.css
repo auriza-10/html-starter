@@ -1,3 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Orbitron:wght@400..900&family=Play:wght@400;700&family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Gabarito:wght@400..900&family=Orbitron:wght@400..900&family=Play:wght@400;700&family=Rubik+Bubbles&display=swap');
+
+
 html {
     /* 
     * box-sizing
@@ -17,18 +22,26 @@ body {
     min-height: 100%;
     display: flex;
     flex-direction: column;
+    font-family: Balsamiq Sans, sans-serif;
     justify-content: space-between;
     /* mobile. Tamaño mínimo recomendado */
     font-size: 14px;
     line-height: 1.4em;
 }
 
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: rubik bubbles, sans-serif;
+   
+}
+
 /* Laptop / Tablet */
 @media (min-width: 768px) {
     body {
+        background: #0fb3ff;
         font-size: 16px;
     }
-}
+
 
 /* Escritorio */
 @media (min-width: 1024px) {
