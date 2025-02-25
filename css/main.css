@@ -27,7 +27,7 @@ body {
     /* mobile. Tamaño mínimo recomendado */
     font-size: 14px;
     line-height: 1.4em;
-    background-color: #ffffff;
+    background-color:#3885fa
 }
 
 
@@ -80,15 +80,15 @@ a {
     padding: 0.25em .5em;
     text-transform: uppercase;
     min-width: 42px;
-    background-color: #ffffff;
+    background-color: #3885fa;
     transition: all 300ms ease-in;
 }
 
 a.active,
 a:hover {
     transition: all 100ms ease-in;
-    background-color: #0835ff;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #0835ff;
 }
 
 footer {
