@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML - Starter Markup</title>
+    <!-- 
+    # Normalize.css
+    # A modern, HTML5-ready alternative to CSS resets
+    # @see: https://necolas.github.io/normalize.css
+    -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <ul>
+                <li>
+                    <a href="/" aria-Label="Inicio">
+                        <img src="img/newjeans.png" alt="Logotipo de newjeans" width="100">
+                    </a>
+                </li>
+                <!-- urls de ejemplo como rutas de navegación -->
+                <li><a href="./docs/index.html" title="Cascading Style Sheets">Docs</a></li>
+                <li><a href="./docs/shortcuts.html" title="Keyboard Shortcuts">Shortcuts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <!-- Contenido -->
+        <section id="image">
+            <picture>
+                <source srcset="img/albumnjns.webp" type="image/webp" media="(max-width: 500px)">
+                <source srcset="img/albumnjns.jpg" type="image/jpg" media="(max-width: 500px)">
+                
+              <source srcset="img/bannernjns.webp" type="image/webp" media="(max-width: 1080px)">
+              <source srcset="img/bannernjns.jpg" type="image/jpg" media="(max-width: 1080px")> 
+
+              <source srcset="img/jns.webp" type="image/webp" media="(max-width: 1280px)">
+              <source srcset="img/jns.jpg" type="image/jpg" media="(max-width: 1280px)">
+              <img src = "img/jns.jpg" alt="Imagen de newjeans">
+              </picture>
+        </section>
+    </main>
+    <footer>
+        <small>CENTRO Diseño, Cine y Televisión 2025</small>
+    </footer>
+</body>
+</html>
